@@ -24,3 +24,17 @@ var tagParser = atParser.tagParserFactory(tagDefinitions, tagProcessors);
 var tags = tagParser('Some content\n@someTag tag content', 12);
 ```
 
+## Developing and Testing
+
+You'll need to install the dependencies:
+
+```
+npm install
+```
+
+There are a bunch of unit tests for the library, which can be found in `/spec`.  They are
+written in Jasmine and runnable with jasmine-node, easily accessible via:
+
+```
+npm test
+```
