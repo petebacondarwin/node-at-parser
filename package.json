@@ -1,0 +1,24 @@
+{
+  "name": "at-parser",
+  "version": "0.1.0",
+  "description": "A very simple configurable jsdoc-style tag parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jasmine-node/bin/jasmine-node spec"
+  },
+  "author": "Pete Bacon Darwin",
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "catharsis": "^0.7.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.12.0",
+    "rewire": "~2.0.0"
+  }
+}
